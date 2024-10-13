@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listViewPosts"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:id="@+id/etPostId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pon el Id aqui"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+
+    <TextView
+        android:id="@+id/tvPostId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:" />
+
+    <TextView
+        android:id="@+id/tvPostTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/tvPostBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Body:" />
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar un JSON" />
+
+    <EditText
+        android:id="@+id/etUpdateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id" />
+
+    <EditText
+        android:id="@+id/etUpdateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/etUpdateBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Body"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar" />
+
+</LinearLayout>
